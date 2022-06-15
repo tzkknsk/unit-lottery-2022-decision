@@ -21,7 +21,8 @@ if buttom:
             color = "赤"
             color_en = "Red"
         
-        st.write(f"NO. {i} : {color}")
+        st.subheader(f"【NO. {i} 】")
+        st.subheader(color)
         st.subheader("")
 
         dic[i] = color_en
